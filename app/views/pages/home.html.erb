@@ -4,8 +4,8 @@
 </div>
 <div class="row">
   <% if user_signed_in? %>
-  <div class="col-md-6">
-    <div class="well">
+    <div class="col-md-6">
+      <div class="well">
         <h2 class="text-center">Your profile</h2>
       <% if current_user.profile %>
       <%= link_to "Edit your profile", edit_user_profile_path(current_user), class: 'btn btn-default btn-lg btn-block' %>
