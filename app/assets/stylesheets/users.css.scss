@@ -1,3 +1,4 @@
+/* Users show page*/
 .profile-img {
   width: 128px;
   height: 128px;
@@ -30,4 +31,14 @@
 .contact-info {
   background-color: #5bc0de;
   border-color: #46b8da;
+}
+/* Users index page*/
+.profile-thumb {
+  border-radius: 50%;
+}
+.well.white-bg {
+  background-color: #fff;
+}
+.well.grey-bg {
+  background-color: #ddd;
 }
